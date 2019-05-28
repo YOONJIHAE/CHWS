@@ -47,6 +47,7 @@ INSTALLED_APPS = [
 
     # custom APP
     'video',
+    'channel',
 ]
 
 MIDDLEWARE = [
