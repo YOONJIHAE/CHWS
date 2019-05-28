@@ -37,7 +37,15 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'django_extensions',
+
+    # API 문서화
+    'drf_yasg',
+
+    # API 프레임워크 
     'rest_framework',
+
+    # custom APP
     'video',
 ]
 
