@@ -13,11 +13,12 @@ import "./App.css";
 function App() {
   return (
     <div>
-      <div className="App">App</div>
       <Search />
       <Menu />
-      <CategoryList />
-      <TotalList />
+      <div id="list_wrapper">
+        <CategoryList />
+        <TotalList />
+      </div>
     </div>
   );
 }
