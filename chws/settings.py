@@ -48,6 +48,7 @@ INSTALLED_APPS = [
     # custom APP
     'video',
     'channel',
+    'word_count', 
 ]
 
 MIDDLEWARE = [
