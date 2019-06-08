@@ -1,0 +1,10 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#list_wrapper {
+  width: 1000px;
+  margin: 0 auto;
+}
